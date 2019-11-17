@@ -1,15 +1,17 @@
 import React from 'react';
 import './card.css';
-
 function Card(props) {
     return (
-        <div class="card">
-            <img src="https://www.w3schools.com/w3images/jeans3.jpg" alt="Denim Jeans" style={{ width: '100%' }} />
-            <h1>Tailored Jeans</h1>
-            <p className="price">$19.99</p>
-            <p>Some text about the jeans..</p>
-            <p><button>Add to Cart</button></p>
-        </div>
-    )
+        <div className="card">
+            <img src="https://www.w3schools.com/w3images/team2.jpg" alt="John Doe" style={{ width: '100%' }} />
+            <h1>John Doe</h1>
+            <p className="title">CEO & Founder, Example</p>
+            <p>Harvard University</p>
+                <a href="#"><i className="fa fa-dribbble"></i></a>
+                <a href="#"><i className="fa fa-twitter"></i></a>
+                <a href="#"><i className="fa fa-linkedin"></i></a>
+                <a href="#"><i className="fa fa-facebook"></i></a>
+                <p><button>Contact</button></p>
+            </div>)
 }
 export default Card
