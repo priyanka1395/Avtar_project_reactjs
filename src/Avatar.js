@@ -14,7 +14,7 @@ import 'tachyons';
         
         namechange(){
             this.setState({
-                name : "Subscribe To my Website"
+                name : "Subscribe To my movie channel"
  
             }
 
@@ -25,23 +25,23 @@ import 'tachyons';
             const avatarlistarray = [
                 {
                     id:1,
-                    name:"priyanka",
-                    work:"web developer"
+                    name:"priyanka chopra",
+                    work:"Actors"
                 },
                 {
                     id:2,
-                    name:"priti",
-                    work:"Teacher"
+                    name:"priti chinta",
+                    work:"Actors"
                 },
                 {
                     id:3,
-                    name:"Amol",
-                    work:"anylist"
+                    name:"alya",
+                    work:"Actors"
                 },
                 {
                     id:4,
-                    name:"Aakash",
-                    work:"ui developer"
+                    name:"ranvir kapoor",
+                    work:"Actor"
                 }
             ]
         
